@@ -20,15 +20,12 @@ This is a terminal-based blog application implemented in Python. It allows users
 ## Installation
 
 1. **Clone the Repository**
-
    -First, clone the repository to your local machine using Git
 
 2. **Install Dependencies**
-   
    -pip install bcrypt
 
 3.**Run the application**
-   
    -python main.py
 
 ## Data Storage
