@@ -33,14 +33,14 @@ This is a terminal-based blog application implemented in Python. It allows users
 
 ## Data Storage
 
--**User Data**: Stored in user_data.pkl using pickle, with passwords encrypted by bcrypt.
--**Blog Data**: Stored in blog_data.pkl under each user’s profile.
+- **User Data**: Stored in user_data.pkl using pickle, with passwords encrypted by bcrypt.
+- **Blog Data**: Stored in blog_data.pkl under each user’s profile.
 
 ## File Overview
 
--**auth.py**: Contains functions for user registration and login, including password encryption and verification. It handles user authentication.
+- **auth.py**: Contains functions for user registration and login, including password encryption and verification. It handles user authentication.
 
--**blog.py**: Manages blog posts, including creation, deletion, modification, and reading. It handles blog data storage and retrieval.
+- **blog.py**: Manages blog posts, including creation, deletion, modification, and reading. It handles blog data storage and retrieval.
 
--**main.py**: The entry point of the application. It provides the terminal interface for users to interact with the blog system, handling user choices and invoking functions from auth.py and blog.py.
+- **main.py**: The entry point of the application. It provides the terminal interface for users to interact with the blog system, handling user choices and invoking functions from auth.py and blog.py.
   
